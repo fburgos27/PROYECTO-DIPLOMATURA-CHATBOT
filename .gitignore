@@ -1,0 +1,74 @@
+# ===================================
+# Archivos Específicos del Proyecto
+# ===================================
+
+# Carpeta de caché para los modelos de Hugging Face
+model_cache/
+
+# Carpeta de caché para los resultados de funciones (joblib)
+joblib_cache/
+
+# Carpeta donde LlamaIndex guarda los índices vectoriales procesados
+storage_index/
+
+# Archivo de variables de entorno
+# ¡MUY IMPORTANTE para no exponer tus claves de API!
+.env
+
+
+# ===================================
+# Python & Entornos Virtuales
+# ===================================
+
+# Carpetas de entorno virtual comunes
+# La tuya es .venv/, pero añadimos otras por si acaso en el futuro.
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Archivos de caché de Python
+# Ya tenías __pycache__/ y *.pyc, lo cual es perfecto.
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de distribución e instalación de paquetes
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+
+# ===================================
+# Jupyter Notebook
+# ===================================
+
+# Puntos de control de Jupyter que se crean automáticamente
+.ipynb_checkpoints/
+
+
+# ===================================
+# Editores de Código
+# ===================================
+
+# Archivos de configuración de VS Code
+# Es bueno ignorarlos para que cada colaborador pueda tener su propia configuración.
+.vscode/
+
+
+# ===================================
+# Sistema Operativo
+# ===================================
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini

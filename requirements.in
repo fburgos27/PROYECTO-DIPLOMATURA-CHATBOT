@@ -1,0 +1,14 @@
+pandas
+faiss-cpu
+python-dotenv
+llama-index
+llama-index-vector-stores-faiss
+llama-index-embeddings-huggingface
+llama-index-llms-openrouter
+gradio
+notebook
+ipykernel
+llama-index-llms-google-genai
+notebook
+ipywidgets
+jupyterlab
