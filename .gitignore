@@ -2,15 +2,6 @@
 # Archivos Específicos del Proyecto
 # ===================================
 
-# Carpeta de caché para los modelos de Hugging Face
-model_cache/
-
-# Carpeta de caché para los resultados de funciones (joblib)
-joblib_cache/
-
-# Carpeta donde LlamaIndex guarda los índices vectoriales procesados
-storage_index/
-
 # Archivo de variables de entorno
 # ¡MUY IMPORTANTE para no exponer tus claves de API!
 .env

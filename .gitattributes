@@ -1,3 +1,4 @@
 # Forzar que todos los archivos de texto usen finales de línea LF (estilo Unix) en el repositorio.
 # Se convertirán automáticamente a CRLF al hacer checkout en Windows.
 * text=auto eol=lf
+*.safetensors filter=lfs diff=lfs merge=lfs -text
